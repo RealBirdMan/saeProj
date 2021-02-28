@@ -1,0 +1,52 @@
+@import "../../scss/colors.scss";
+@import "../../scss/mixins.scss";
+
+.app-header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  z-index: 900;
+  .app-header__brand {
+    flex-basis: 250px;
+    padding: 20px;
+    span {
+      font-weight: 300;
+      color: #106466;
+      @include breakpoint("sm") {
+        color: $secondary;
+        font-size: 20px;
+      }
+    }
+  }
+  .app-header__navigation {
+    display: flex;
+    align-items: center;
+    flex-basis: 250px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    z-index: 900;
+    position: fixed;
+    right: 0;
+    .menu-icon {
+      display: none;
+      margin: 16px;
+      color: $secondary;
+      cursor: pointer;
+      @include breakpoint("sm") {
+        display: block;
+      }
+    }
+
+    ul {
+      @include breakpoint("sm") {
+        display: none;
+      }
+      border-bottom: 1px solid #d2e8e3;
+      display: flex;
+      padding: 20px;
+    }
+    li {
+      margin: 0 20px;
+    }
+  }
+}

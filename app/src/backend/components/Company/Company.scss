@@ -1,0 +1,26 @@
+@import "../../../scss/colors.scss";
+.company__container {
+  .Mui-selected {
+    background-color: $primary !important;
+    color: white !important;
+  }
+  .active {
+    color: white !important;
+  }
+  .disabled {
+    color: rgba(0, 0, 0, 0.38);
+  }
+  button {
+    margin: 25px 0;
+  }
+  .modal__container {
+    margin: 10px 0;
+  }
+  .modal__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal__icons {
+    color: $fontColor;
+  }
+}

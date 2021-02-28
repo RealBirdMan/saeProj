@@ -1,0 +1,20 @@
+@import "../scss/colors.scss";
+
+.auth__container {
+  height: 100vh;
+  .label.MuiFormLabel-root {
+    color: $secondary;
+  }
+  .image {
+    background-image: url("../images/home_office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .paper {
+    margin: 160px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

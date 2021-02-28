@@ -1,0 +1,73 @@
+@import "../../../scss/colors.scss";
+
+.createBill__container {
+  .MuiSelect-select.MuiSelect-select {
+    padding-right: 77px;
+    width: 88px;
+  }
+}
+
+.MuiList-root {
+  background-color: white;
+}
+
+.Select__container {
+  margin-top: 25px;
+}
+
+ul {
+  .create-company__btn {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+    letter-spacing: 0.00938em;
+    color: #2c3532 !important;
+  }
+}
+
+.single-job {
+  border: 1px solid $secondary;
+  border-radius: 3px;
+  padding: 16px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  .MuiFormControl-root {
+    margin-top: 0;
+  }
+  label {
+    padding-left: 10px;
+  }
+  .type {
+    flex-basis: 150px;
+    flex-grow: 1;
+  }
+  .amount {
+    flex-grow: 22;
+    flex-basis: 300px;
+  }
+  .price {
+    flex-basis: 150px;
+    flex-grow: 15;
+    display: flex;
+    align-items: baseline;
+    span {
+      color: $fontColor;
+    }
+  }
+  .name {
+    flex-grow: 1;
+    flex-basis: 1000px;
+  }
+}
+
+.remove-job {
+  border-color: $warning !important;
+  color: $paper !important;
+}
+
+.add-job {
+  border-color: $success !important;
+  color: $paper !important;
+}

@@ -1,0 +1,17 @@
+@import "../../scss/colors.scss";
+.warning-modal__container {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid $warning;
+  .warning {
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: $warning;
+    svg {
+      margin-right: 5px;
+    }
+  }
+}

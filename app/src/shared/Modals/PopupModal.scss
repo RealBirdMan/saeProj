@@ -1,0 +1,39 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1500;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .modal__container {
+    flex-basis: 370px;
+    .avatar {
+      margin: auto auto;
+    }
+    h2 {
+      margin-top: 15px;
+    }
+    p {
+      margin-top: 15px;
+    }
+    hr {
+      margin: 2px 0;
+    }
+    button {
+      margin: 5px;
+    }
+  }
+}

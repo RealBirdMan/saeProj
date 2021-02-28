@@ -1,0 +1,43 @@
+@import "../../scss/colors.scss";
+
+.registerForm__container,
+.loginForm__container {
+  .label.MuiFormLabel-root {
+    color: $secondary;
+  }
+  .avatar {
+    background-color: $primary;
+    margin: 8px auto;
+    width: 60px;
+    height: 60px;
+  }
+  .form {
+    width: "100%";
+    margin: 0.2em;
+  }
+  .submit {
+    margin: 24px 0px 16px;
+  }
+  .check {
+    color: $secondary;
+  }
+  .spinner-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.registerForm__container {
+  .svg {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+.loginForm__container {
+  .svg {
+    width: 1.7em;
+    height: 1.7em;
+  }
+}
